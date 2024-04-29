@@ -10,7 +10,8 @@ const studentProfile={
 }
 let full_name=studentProfile.firstName+" "+studentProfile.lastName;
 console.log("Student Full Name is:"+full_name);
-console.log("Class Name is:"+studentProfile.class["name"]);//Print the class name using bracket notation
-console.log("Teacher's email is:"+studentProfile.class.teacher["email"]); 
+console.log("Class Name is:"+studentProfile["class"]["name"]);//Print the class name using bracket notation
+console.log("Teacher's email is:"+studentProfile.class.teacher["email"]); //print using both dot and bracket
 studentProfile.grades["maths"]='A+'; // Change the grade for maths
+
 console.log("updated grade is:"+studentProfile.grades["maths"]); //upated grade
