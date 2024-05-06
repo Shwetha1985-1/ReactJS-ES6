@@ -1,0 +1,18 @@
+body {
+    background-color: lightblue;
+    text-align:left;
+  }
+
+  p {
+    font-size: 40px;
+    font-style: oblique;
+  }
+
+  .break_here
+                {
+                    page-break-before:always;
+                }
+
+                p.paragrpahs span {
+                    display: inline-block;
+                }
